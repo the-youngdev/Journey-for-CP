@@ -7,180 +7,223 @@ This repository tracks my learning progress as I build strong fundamentals in **
 
 ## 🚀 Current Status  
 **Language:** C  
-**Progress:** Learned till **Loops, Functions, and Random Number Generation**  
-**Topics Covered:**  
-- Basic Syntax  
-- Variables & Data Types  
-- Input / Output  
-- Format Specifiers  
-- Operators  
-- Conditional Statements  
-- Math Functions  
-- Functions & Prototypes  
-- Loops (while, for, nested)  
-- Random Number Generation  
-- Mini Projects (Banking, Guessing Game, Patterns)
+**Progress:** Completed till **Pointers, File Handling & Dynamic Memory**  
+**New Topics Covered:**  
+- Arrays (1D, 2D)  
+- Arrays & User Input  
+- Arrays of Strings  
+- Quiz Game Project  
+- Ternary Operator  
+- typedef  
+- enums  
+- Structs & Arrays of Structs  
+- Pointers  
+- File Handling (read/write)  
+- Dynamic Memory (malloc, calloc, realloc)  
+- Digital Clock Project  
 
 ---
 
 # 📚 What I’ve Learned So Far
 
+---
+
 ## ✔️ 1. C Basics  
-- Structure of a C program  
-- Header files (`stdio.h`, `stdlib.h`, `stdbool.h`, `string.h`, `math.h`, `time.h`)  
-- Using constants with `#define`  
-- Writing simple print statements  
-- Comments (single & multi-line)
+- Program structure  
+- Header files  
+- printf, scanf, fgets  
+- Preprocessor directives  
+- Comments & formatting  
 
 ---
 
 ## ✔️ 2. Variables & Data Types  
-Learned and practiced:  
-- `int`, `float`, `double`, `char`, `char[]`, `bool`  
-- Assigning values  
-- Type sizes  
-- Boolean logic with `<stdbool.h>`
+- Primitive types  
+- Strings with char arrays  
+- Boolean logic  
+- Type sizes & memory layout  
 
 ---
 
-## ✔️ 3. Input / Output  
-Mastered important I/O functions:  
-- `printf()` format specifiers  
-- Width, precision, padding, flags  
-- Safe input using `scanf()` and `fgets()`  
-- Handling input buffer issues  
-- Preventing buffer overflow
+## ✔️ 3. Input / Output Techniques  
+- Format specifiers  
+- Width, precision, padding  
+- Safe user input  
+- Handling input buffer  
+- Preventing overflow  
 
 ---
 
 ## ✔️ 4. Functions  
-### What I learned:
-- Creating and calling functions  
-- Parameters and return values  
+- Function definitions  
+- Parameters & return values  
 - Local vs global scope  
-- Function prototypes (why they matter)  
-- Organizing code for readability  
-
-### Implemented:
-- Greeting functions  
-- Sum functions  
-- Custom add function  
-- Function with multiple parameters
+- Function prototypes  
+- Code structure & modular programming  
 
 ---
 
-## ✔️ 5. Loops  
-Mastered different looping techniques:
-
-### 🔹 While Loop  
-- Good for unknown iteration count  
-- Used in user-input based loops
-
-### 🔹 For Loop  
-- Controlled repetition  
-- Used delays with `Sleep()`  
-- Iteration counters  
-
-### 🔹 Nested Loops  
-- Practical for pattern printing  
-- Multi-level iteration logic  
-
-### 🔹 Break & Continue  
-- Skipping or exiting loops  
-- Practical examples with even/odd skipping
+## ✔️ 5. Decision Making  
+- if / else  
+- else-if ladder  
+- switch-case  
+- Logical operators  
+- clean conditional logic  
 
 ---
 
-## ✔️ 6. Random Number Generation  
-Learned to use:  
-- `rand()`  
-- `srand(time(NULL))`  
-- Generating numbers in custom ranges  
-- Avoiding repeat patterns with seeds  
-
-### Implemented:  
-- Print 5 random numbers  
-- Random number guessing game with hints  
-- Counting number of tries  
+## ✔️ 6. Loops  
+- while loop  
+- for loop  
+- nested loops  
+- break & continue  
+- Iterative logic patterns  
 
 ---
 
-## ✔️ 7. Mini Projects Completed  
-
-### 🛒 **Shopping Cart Program**  
-- Budget calculation  
-- Total price check  
-- Input handling with `fgets()`
-
----
-
-### ✍️ **Mad Libs Generator**  
-- String input  
-- Dynamic sentence creation  
-- Character trimming and formatting
+## ✔️ 7. Math & Randomization  
+- `pow()`, `sqrt()`, `ceil()`, `floor()`  
+- Trigonometry  
+- `rand()` & `srand(time(NULL))`  
+- Guessing number game  
+- Controlled randomness  
 
 ---
 
-### 🔵 **Circle Calculator**  
-- Area & circumference  
-- `pow()`, `sqrt()`, and `M_PI`
+# 🔥 NEW MODULES COMPLETED
 
 ---
 
-### 💰 **Compound Interest Calculator**  
-- Mathematical formula implementation  
-- Exponential calculations  
-- User input validation
+## ✔️ 8. Arrays  
+- Declaring arrays  
+- Accessing + modifying elements  
+- Looping through arrays  
+- Arrays & user input  
+- Preventing index out of bounds  
+- Memory layout of arrays  
+
+### ✔️ 2D Arrays  
+- Matrix-style storage  
+- Row/column traversal  
+- Nested iteration logic  
+
+### ✔️ Arrays of Strings  
+- String tables  
+- Manipulating multiple strings  
+- Pattern-based access  
 
 ---
 
-### 🎮 **Number Guessing Game**  
-- Random number generation  
-- Looping until correct guess  
-- Hint system (high/low)  
-- Try counter  
-
----
-
-### 🏦 **Mini Banking System (New)**  
-Implemented features like:  
-- User login / PIN input  
-- Deposit  
-- Withdrawal  
-- Balance tracking  
-- Error handling (insufficient funds)  
-- Loop-driven menu system  
-- Switch-case for user selection  
-
-This project improved:  
-- Logic building  
-- Condition handling  
-- Loop-based menus  
-- Functional programming flow
-
----
-
-# 📈 What’s Next?  
-
-## 🔜 Upcoming Learning Goals  
+## ✔️ 9. Quiz Game Project  
+Created using:  
 - Arrays  
-- Strings (Advanced)  
-- Structs  
-- Pointers  
-- Dynamic Memory Allocation (`malloc`, `free`)  
-- File Handling  
-- Stack / Queue basics  
-- Start beginner DSA problems  
-- More mini-projects (Tic Tac Toe, ATM machine, Contact Manager)
+- Strings  
+- Score logic  
+- Condition checks  
+- Loop-based question flow  
+
+---
+
+## ✔️ 10. Ternary Operator  
+- Short conditional expressions  
+- Cleaner code for simple checks  
+
+---
+
+## ✔️ 11. typedef  
+- Creating custom type aliases  
+- Cleaner struct & pointer definitions  
+
+---
+
+## ✔️ 12. enums  
+- Creating named constants  
+- Better readability  
+- Menu systems & modes  
+
+---
+
+## ✔️ 13. Structs  
+- Grouping related data  
+- Blueprints for real-world objects  
+- Accessing with dot operator  
+
+### ✔️ Arrays of Structs  
+- Storing multiple entities  
+- Loop-based record systems  
+- Foundations of mini-database logic  
+
+---
+
+## ✔️ 14. Pointers  
+- Address-of operator `&`  
+- Dereferencing `*`  
+- Pointer arithmetic  
+- Pointers with arrays  
+- Pointers with strings  
+- Pointers with structs  
+- Function pointers (concept intro)  
+
+---
+
+## ✔️ 15. File Handling  
+### Write Files  
+- `fopen()`, `fprintf()`, `fclose()`  
+- Creating files  
+- Writing structured data  
+
+### Read Files  
+- `fscanf()`, `fgets()`  
+- Reading line by line  
+- Parsing data  
+- End-of-file logic  
+
+---
+
+## ✔️ 16. Dynamic Memory Allocation  
+### malloc()  
+- Allocating memory dynamically  
+- Handling memory failures  
+
+### calloc()  
+- Zero-initialized memory  
+- When and why to use  
+
+### realloc()  
+- Resizing arrays  
+- Expanding user data storage  
+- Safe memory reallocation patterns  
+
+---
+
+## ✔️ 17. Digital Clock Project  
+Built using:  
+- Loops  
+- `time.h`  
+- Functions  
+- Clear screen behavior  
+- String formatting  
+
+---
+
+# 📈 Next Targets  
+- File-based mini projects (Contact Manager / Student DB)  
+- Linked Lists  
+- Basic Stack / Queue  
+- Searching & Sorting Algorithms  
+- Recursion  
+- Memory management mastery  
+- Start solving DSA beginner problems  
+- Build 3–5 major C mini-projects  
 
 ---
 
 # 📂 Repository Purpose  
-This README and code history will help me:  
-- Track progress  
-- Maintain discipline  
-- See growth over time  
-- Prepare for advanced CP and DSA  
-- Build strong coding habits
+This repository helps me:  
+- Track my learning  
+- Stay disciplined  
+- Document every milestone  
+- Build a strong foundation before DSA  
+- Create a portfolio of C mini–projects  
 
-More updates coming soon! 🚀🔥
+More updates soon! 🚀🔥
