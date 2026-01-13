@@ -1,0 +1,46 @@
+# Compiled binary files
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+
+# Build folders
+/build/
+bin/
+target/
+
+# VSCode settings
+.vscode/
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# macOS system files (if ever edited on Mac)
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+
+# CMake / Makefile generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Ignore user-specific config
+*.code-workspace
+
+# Ignore unwanted compiled intermediates
+*.pdb
+*.idb
